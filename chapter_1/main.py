@@ -2,6 +2,7 @@ import numpy as np
 from numpy import ndarray
 
 def square (x: ndarray) -> ndarray:
+    #returns squared function
     return np.power(x, 2)
 
 def leaky_relu(x: ndarray) -> ndarray:
